@@ -8,7 +8,7 @@
 
 body{
 
-  font-family: sans-serif;
+  font-family:work sans;
   font-weight: 400;
   font-style: normal;
 }
@@ -20,7 +20,6 @@ body{
 
 header{
     background-color: #FF900E1A;
-    height: 100vh;
 }
 
 header nav{
@@ -28,11 +27,13 @@ header nav{
     align-items: center;
     justify-content: space-between;
     height: 60px;
+    padding-top: 50px;
+    margin-bottom: 120px;
 }
 
 header nav ul{
     display: flex;
-    gap:30px;
+    gap:70px;
 }
 
 header nav ul li{
@@ -40,6 +41,7 @@ header nav ul li{
 }
 
 header nav ul li a{
+    font-size: 18px;
     text-decoration: none;
     color: #424242;
 }
@@ -48,28 +50,173 @@ header .content{
     width: 862px;
     margin: 0 auto;
     text-align: center;
+    
 }
 
-header .content h1{
+h1{
     font-size: 64px;
 }
 
-header .content p{
+header p{
     color: #727272;
     margin: 32px 0;
 }
 
-header .content button{
+header img{
+    width: 100%;
+    margin: 45px 0;
+}
+
+button{
     color: #fff;
     font-weight: 700;
     font-size: 20px;
-    padding: 16px 8px;
+    padding: 20px 25px;
     background-color: #FF900E;
     border-radius: 8px;
     outline:none;
-    margin-bottom: 50px;
 }
-img{
-    width: 100%;
+
+
+
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.features > div{
+    display: flex;
+    align-items: center;
+    gap: 73px; 
+
+}
+
+.features .image-part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    flex: 1;
+}
+
+.features .content-part{
+    flex: 1;
+}
+.features .content-part p{
+    color: #727272;
+    margin: 30px 0;
+    font-size: 16px;
+}
+.features .content-part h2{
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.orange{
+    color: #FF900E;
+}
+.bold{
+    font-weight: 700;
+}
+
+.features-info > div {
+    display: flex;
+    gap: 145px;
+}
+
+.features-info .heading > h1{
+    font-size: 45px;
+    border-left:5px solid #FF900E;
+    padding-left: 10px;
+}
+.features-info .heading p{
+    margin: 25px 0;
+    color: #727272;
+}
+.features-info .card{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 35px;
+    margin: 20px 0;
+}
+
+.features-info .card h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.features-info .card p{
+    color: #727272;
+}
+.image-part{
     height: 100%;
+    position: relative;
 }
+.experiance-card{
+    color: #fff;
+    background-color: #FF900E;
+    padding: 45px;
+    border-radius: 5px;
+    max-width: fit-content;
+    position: relative; 
+    bottom: 100px;
+    right:60px ;
+    text-align: center;
+
+}
+
+.experiance-card p{
+    font-size: 25px;
+}
+
+.facts p{
+    color: #727272;
+    margin-top: 24px;
+}
+.facts h2{
+    font-size: 45px;
+}
+
+.facts .cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+.facts .card{
+    height: 240px;
+    width: 240px;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 10px;
+    padding: 45px 35px;
+}
+
+.sponsor .content{
+    width: 100%;
+    text-align: center;
+}
+
+h2{
+    font-size: 45px;
+}
+
+.sponsor .content p{
+    color: #727272;
+    margin-top: 24px;
+}
+
+.sponsor .container .logos {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p{
+    font-size: 20px;
+    color: #424242;
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 45px 0;
+    border-radius: 8px;
+    margin: 170px 0 210px 0;
+}
+
+
